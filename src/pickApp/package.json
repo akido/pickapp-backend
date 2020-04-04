@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.653.0",
     "lambda-api": "^0.10.5"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.653.0"
   }
 }
