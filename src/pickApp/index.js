@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 const jwtSecret = 'J0n3x2AqxN5KGUFXL5rJLsBM'
 
 
-api.get('/login', async (req, res) => {
+api.post('/login', async (req, res) => {
   const user = users[req.body.email]
   if (!user) {
     return res.status(400).send({ 'The user is not registered' })
