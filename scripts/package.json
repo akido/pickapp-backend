@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/akido/pickapp-backend#readme",
   "dependencies": {
-    "aws-sdk": "^2.653.0",
+    "aws-sdk": "^2.814.0",
     "strict-password-generator": "^1.1.2"
   }
 }
